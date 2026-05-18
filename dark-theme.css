@@ -1,0 +1,90 @@
+/* ============================
+   DARK THEME
+   ============================ */
+.dark-theme-variables {
+    --color-background:  #1a1a2e;
+    --color-white:       #16213e;
+    --color-dark:        #eef0f4;
+    --color-dark-variant:#a3bdcc;
+    --color-light:       #0f3460;
+    --color-info-light:  #7a8fa6;
+    --color-info-dark:   #a3bdcc;
+    --box-shadow:        0 2rem 3rem rgba(0, 0, 0, 0.5);
+}
+
+/* Fondo general */
+.dark-theme-variables body,
+body.dark-theme-variables {
+    background: var(--color-background);
+    color: var(--color-dark);
+}
+
+/* Sidebar */
+body.dark-theme-variables aside,
+body.dark-theme-variables aside .top,
+body.dark-theme-variables aside .sidebar {
+    background: var(--color-white);
+}
+
+body.dark-theme-variables aside .sidebar a {
+    color: var(--color-info-dark);
+}
+
+body.dark-theme-variables aside .sidebar a.active {
+    background: var(--color-light);
+    color: var(--color-primary);
+}
+
+/* Cards de insights */
+body.dark-theme-variables .insights > div,
+body.dark-theme-variables .recent-orders table,
+body.dark-theme-variables .right .recent-updates .updates,
+body.dark-theme-variables .right .sales-analytics .item {
+    background: var(--color-white);
+}
+
+/* Tabla */
+body.dark-theme-variables table tbody td {
+    border-bottom-color: var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+/* Topbar derecha */
+body.dark-theme-variables .right .top {
+    background: var(--color-white);
+}
+
+/* Input fecha */
+body.dark-theme-variables .date input[type="date"] {
+    color: var(--color-dark);
+}
+
+body.dark-theme-variables .date {
+    background: var(--color-light);
+}
+
+/* Theme toggler */
+body.dark-theme-variables .theme-toggler {
+    background: var(--color-light);
+}
+
+/* Add product (borde punteado) */
+body.dark-theme-variables .sales-analytics .add-product {
+    border-color: var(--color-primary);
+}
+
+/* Textos */
+body.dark-theme-variables p {
+    color: var(--color-dark-variant);
+}
+
+body.dark-theme-variables b {
+    color: var(--color-dark);
+}
+
+body.dark-theme-variables h1,
+body.dark-theme-variables h2,
+body.dark-theme-variables h3,
+body.dark-theme-variables h4 {
+    color: var(--color-dark);
+}
